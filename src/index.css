@@ -1,0 +1,173 @@
+
+body {
+  margin: 0;
+  background:#86C6EA;
+  overflow-x: hidden;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  color: #fff;
+}
+/* General */
+/* Text Fonts */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+h1 { font-size: 100px;}
+h2 { font-size: 48px;}
+h3 { font-size: 32px;}
+h4 { font-size: 28px;}
+h5 { font-size: 24px;}
+h6 { font-size: 22px;}
+p { font-size: 18px;}
+
+/* Buttons and Bars */
+.nav-btn {
+  background-color: #266182;
+  font-size: 20px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 20px;
+}
+.btn-general {
+  width: 200px;
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: 2px solid #125377;
+  background: #4190be;
+}
+.heading-bar {
+  background: linear-gradient(to right, #508EB1, #125377);
+  padding: 8px 24px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: #508EB1;
+  display: grid;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 100%;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.navbar *{
+  color: #fff;
+  text-decoration: none;
+}
+.navMain {
+  font-size: 32px;
+}
+.nav-left {
+  justify-self: flex-start;
+  position: relative;
+  left: 8vw;
+}
+.nav-right {
+  justify-self: flex-end;
+  position: relative;
+  right: 8vw;
+}
+.nav-item {
+  padding: 0 16px;
+  font-size: 20px;
+}
+
+/* Main */
+/* Frequently Used Divs */
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.split-70 {
+  display: inherit;
+  width: 70%;
+}
+.split-60 {
+  display: inherit;
+  width: 60%;
+}
+.split-50 {
+  display: inherit;
+  width: 50%;
+}
+.split-40 {
+  display: inherit;
+  width: 40%;
+}
+.split-30 {
+  display: inherit;
+  width: 30%;
+}
+
+/* Landing Page */
+.landing-main {
+  display: flex;
+  width: 80vw;
+  margin: 40px auto;
+  flex-direction: row;
+}
+.card-profile {
+  width: 80%;
+  margin: auto;
+  gap: 0;
+}
+.profile {
+  border: 2px solid #125377;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.card-icons {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: center;
+  gap: 40px;
+  background: #125377;
+  border: 2px solid #125377;
+  border-top: none;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+}
+.cr-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  bottom: 0;
+  width: 100vw;
+  background-color: #508EB1;
+  color: #fff;
+  height: 32px;
+  font-size: 16px;
+}
+.copyright {
+  position: relative;
+  right: 8vw;
+}
