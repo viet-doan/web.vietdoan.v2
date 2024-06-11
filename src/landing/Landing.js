@@ -1,7 +1,7 @@
 import React from 'react';
-import profile from './assets/profile.jpg';
+import profile from '../assets/profile.jpg';
 // import { useHref } from 'react';
-import './index.css';
+import '../css/main.css';
 
 function Landing() {
   const vietLinkedinURL = "https://www.linkedin.com/in/viet-doan-vqd/";

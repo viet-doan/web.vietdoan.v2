@@ -1,4 +1,4 @@
-function Navbar() {
+function Navigation() {
   return (
     <nav className="navbar">
       <div className="navMain nav-left" >Viet Doan</div>
@@ -12,4 +12,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navigation;
