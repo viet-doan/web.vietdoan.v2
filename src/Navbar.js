@@ -7,7 +7,7 @@ function Navbar() {
         <a className="nav-item" href="/create">About</a>
         <a className="nav-item" href="/">Experiences</a>
       </div>
-      <button className="nav-btn nav-right" >Contact</button>
+      <button className="nav-btn nav-right">Contact</button>
     </nav>
   );
 }
