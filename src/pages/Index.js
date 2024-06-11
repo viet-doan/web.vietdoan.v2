@@ -1,6 +1,6 @@
-import Navigation from '../Navigation';
+import Navigation from '../general/Navigation.js';
 import Landing from '../landing/Landing';
-import Footer from '../Footer.js';
+import Footer from '../general/Footer.js';
 
 function Index() {
   return (
