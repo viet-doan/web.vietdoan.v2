@@ -8,7 +8,7 @@ const Years = ({
 }) => (
   <article className="column">
     {year ? (
-      <h4 className="years" key={year}>{year}</h4>
+      <h4 className="sub-header" key={year}>{year}</h4>
     ) : null}
     
     {events ? (

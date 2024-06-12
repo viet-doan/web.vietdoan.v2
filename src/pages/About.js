@@ -3,17 +3,17 @@ import Footer from '../general/Footer';
 import Card from '../general/Card';
 
 import Summary from '../components/Summary';
-// import Skills from '../components/Skills';
+import Skills from '../components/Skills';
 import Timeline from '../components/Timeline';
 
 import summary from '../data/summary';
-// import skills from '../data/skills';
+import skills from '../data/skills';
 import timeline from '../data/timeline';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
   Summary: () => <Summary data={summary} />,
-  // Skills: () => <Skills skills={skills} />,
+  Skills: () => <Skills data={skills} />,
   Timeline: () => <Timeline data={timeline} />,
 };
 

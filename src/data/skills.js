@@ -1,19 +1,19 @@
 const skills = [
   {
-    type: 'Frontend',
-    category: ['HTML5', 'CSS3', 'JavaScript', 'React' ],
+    codeType: 'Frontend',
+    tools: ['HTML5', 'CSS3', 'JavaScript', 'React' ],
   },
   {
-    type: 'Backend',
-    category: ['Python', 'C', 'Java'],
+    codeType: 'Backend',
+    tools: ['Python', 'C', 'Java'],
   },
   {
-    type: 'Database',
-    category: ['MongoDB', 'MySQL'],
+    codeType: 'Database',
+    tools: ['MongoDB', 'MySQL'],
   },
   {
-    type: 'Tools',
-    category: ['Adobe Illustrator', 'Matlab', 'IntelliJ IDEA', 'VSCode', 'Git', 'Github', 'Figma'],
+    codeType: 'Tools',
+    tools: ['Adobe Illustrator', 'Matlab', 'IntelliJ IDEA', 'VSCode', 'Git', 'Github', 'Figma'],
   }
 ];
 

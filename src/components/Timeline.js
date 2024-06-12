@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Years from './About/Years';
+import Years from './Timeline/Years';
 
 const Timeline = ({ data }) => (
-  <div id="timeline">
+  <div className="section">
     <div className="heading-bar">
       <h5>My Timeline</h5>
     </div>
