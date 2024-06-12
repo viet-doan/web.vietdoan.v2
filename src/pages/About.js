@@ -19,11 +19,11 @@ const sections = {
 
 function About() {  
   return (
-    <div className='app'>
+    <div className='App'>
       <Navigation />
       <main className="main row">
         <Card />
-        <div className="column landing">
+        <div className="column">
           {Object.entries(sections).map(([name, Section]) => (
             <Section key={name} />
           ))}

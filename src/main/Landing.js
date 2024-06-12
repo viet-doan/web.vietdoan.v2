@@ -8,7 +8,6 @@ function Landing() {
   return (
     <main className="main row">
       <Card />
-
       {/* Welcome Section */}
         <div className="column landing">
           <div className="heading-bar">
@@ -18,9 +17,6 @@ function Landing() {
           <p>I am currently a Computer Science student at the University of Melbourne</p>
           <button className='btn-general'>More about me..</button>
         </div>
-
-
-
     </main>
   );
 }
