@@ -208,10 +208,14 @@ p { font-size: 18px;}
 .events {
   padding-inline-start: 20px;
 }
-.skills-minimal {
-  display: none;
+.container-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-
+.icon-skills {
+  width: 60px;
+}
 
 
 /* Footer */
@@ -306,17 +310,16 @@ footer {
     max-width: 500px;
     margin: auto;
   }
-  .skills {
-    display: none;
-  }
-  .skills-minimal {
-    display: block;
+  .container-skills {
+    max-width: 500px;
+    margin: auto;
+    justify-content: center;
   }
   .events{
     max-width: 500px;
     margin: auto;
     margin-bottom: 40px;
-    text-align: left;
+    text-align: center;
   }
   .events li {
     list-style: none;
