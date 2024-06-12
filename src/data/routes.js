@@ -20,10 +20,6 @@ const routes = [
     label: 'Experiences',
     path: '/experiences',
   },
-  {
-    label: 'Contact',
-    path: '/contact',
-  },
 ];
 
 export default routes;

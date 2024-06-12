@@ -1,7 +1,6 @@
 // export default App;
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Main from './layouts/Main'; // Fall back for lazy pages
 import './css/main.css'; // All of our styles
 
 const { PUBLIC_URL } = process.env;
@@ -13,9 +12,6 @@ const Index = lazy(() => import('./pages/Index'));
 const About = lazy(() => import('./pages/About'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Experiences = lazy(() => import('./pages/Experiences'));
-const Contact = lazy(() => import('./pages/Contact'));
-// const Resume = lazy(() => import('./pages/Resume'));
-// const Stats = lazy(() => import('./pages/Stats'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App = () => (
@@ -27,7 +23,7 @@ const App = () => (
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/Experiences" element={<Experiences />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
         {/* <Route path="/stats" element={<Stats />} /> */}
         {/* <Route path="/resume" element={<Resume />} /> */}
         <Route path="*" element={<NotFound />} />

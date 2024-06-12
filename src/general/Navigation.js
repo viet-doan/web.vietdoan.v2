@@ -6,9 +6,9 @@ function Navigation() {
         <a className="nav-item" href="/">Home</a>
         <a className="nav-item" href="/About">About</a>
         <a className="nav-item" href="/Projects">Projects</a>
-        <a className="nav-item" href="/Experiences">Experiences</a>
+        {/* <a className="nav-item" href="/Experiences">Experiences</a> */}
       </div>
-      <button className="nav-btn nav-right">Contact</button>
+      <a className="nav-btn nav-right" href="/#contact">Contact</a>
     </nav>
   );
 }

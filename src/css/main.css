@@ -12,6 +12,13 @@ body {
   color: #125377;
   font-family: 'poppins', 'Helvetica Neue', sans-serif;
 }
+*::selection{
+  background-color: #d3eaff;
+  color: #125377 !important;
+  opacity: 1 !important; 
+}
+
+
 /* General */
 .not-found {
   width: 100vw;
@@ -48,6 +55,7 @@ p { font-size: 18px;}
   border-radius: 10px;
 }
 .btn-general {
+  text-decoration: none;
   width: 200px;
   padding: 12px 24px;
   border: none;
@@ -215,12 +223,44 @@ p { font-size: 18px;}
   width: 60px;
 }
 
+/* Contact Form */
+#contact .heading-bar {
+  margin-bottom: 0;
+}
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.form-section {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  gap: 20px;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #eaf4fd;
+  color: #125377;
+}
+.form-control:focus {
+  border: none;
+}
+::placeholder {
+  color: #125377;
+}
+textarea {
+  resize: vertical;
+  color: #125377;
+}
 
 /* Footer */
 footer {
-  /* position: absolute !important; */
   margin-top: 0;
-  /* bottom: 0; */
 }
 
 .cr-container {
@@ -257,7 +297,7 @@ footer {
 
   .column,
   .row {
-    width: 80vw;
+    width: 100%;
     text-align: center;
     justify-content: center;
   }
@@ -324,6 +364,10 @@ footer {
     list-style: none;
   }
 
+  /* Form */
+  .form-section {
+    justify-content: center;
+  }
   /* Copyright */
   .copyright {
     text-align: center;
