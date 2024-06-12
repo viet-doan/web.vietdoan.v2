@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
   margin: 0;
@@ -7,16 +8,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 * {
   color: #125377;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  sans-serif; */
+  font-family: 'poppins';
 }
 /* General */
 /* Text Fonts */
@@ -34,7 +36,8 @@ p { font-size: 18px;}
 
 /* Buttons and Bars */
 .nav-btn {
-  background-color: #BDE0FE;
+  color: #fff !important;
+  background: #276e97;
   font-size: 20px;
   font-weight: 500 !important;
   padding: 8px 24px;
@@ -50,6 +53,7 @@ p { font-size: 18px;}
   border-radius: 10px;
   background: #276e97;
 }
+.nav-btn:hover,
 .btn-general:hover {
   background: #4190be;
 }
@@ -161,8 +165,22 @@ p { font-size: 18px;}
 }
 .landing h1{
   font-size: 7vw;
-  font-size: min(7vw, 114px);
-  
+  font-size: min(7vw, 114px); 
+}
+
+/* About Page */
+#timeline .column {
+  gap: 10px;
+}
+.years {
+  margin-top: 20px;
+}
+.events {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.events {
+  padding-inline-start: 20px;
 }
 
 /* Footer */

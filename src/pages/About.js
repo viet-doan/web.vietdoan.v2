@@ -2,6 +2,20 @@ import Navigation from '../general/Navigation';
 import Footer from '../general/Footer';
 import Card from '../general/Card';
 
+// import Summary from '../components/Summary';
+// import Skills from '../components/Skills';
+import Timeline from '../components/Timeline';
+
+// import summary from '../data/summary';
+// import skills from '../data/skills';
+import timeline from '../data/timeline';
+
+// NOTE: sections are displayed in order defined.
+const sections = {
+  // Summary: () => <Summary data={summary} />,
+  // Skills: () => <Skills skills={skills} />,
+  Timeline: () => <Timeline data={timeline} />,
+};
 
 function About() {  
   return (
@@ -9,19 +23,11 @@ function About() {
       <Navigation />
       <main className="main row">
         <Card />
-  
-        {/* Welcome Section */}
-          <div className="column landing">
-            <div className="heading-bar">
-              <h5>Welcome to my Portfolio</h5>
-            </div>
-            <h1>Hi! 😊<br />I'm Viet Doan</h1>
-            <p>I am currently a Computer Science student at the University of Melbourne</p>
-            <button className='btn-general'>More about me..</button>
-          </div>
-  
-  
-  
+        <div className="column landing">
+          {Object.entries(sections).map(([name, Section]) => (
+            <Section key={name} />
+          ))}
+        </div>
       </main>
       <Footer />
     </div>
