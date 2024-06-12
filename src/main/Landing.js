@@ -2,8 +2,14 @@ import React from 'react';
 import Card from '../general/Card';
 import Form from '../components/Form';
 
-// import { useHref } from 'react';
+import Skills from '../components/Skills';
+import skills from '../data/skills';
+
 import '../css/main.css';
+
+const sections = {
+  Skills: () => <Skills data={skills} />,
+};
 
 function Landing() {  
   return (
@@ -17,7 +23,15 @@ function Landing() {
         <h1>Hi! 😊<br />I'm Viet Doan</h1>
         <p>I am currently a Computer Science student at the University of Melbourne</p>
         <a className='btn-general' href='/About'>More about me..</a>
-        <Form />
+
+        {/* Skills */}
+        <div className="column">
+          {Object.entries(sections).map(([name, Section]) => (
+            <Section key={name} />
+          ))}
+        </div>
+
+        {/* <Form /> */}
       </div>
     </main>
   );
