@@ -3,33 +3,6 @@ import React from 'react';
 
 import Programming from './Skills/Programming';
 
-// import Languages from './Skills/Languages';
-
-// const Skills = ({ data }) => (
-//   <div className ="section">
-//     <div className="heading-bar">
-//       <h5>My Skills</h5>
-//     </div>
-//     {data.map((languages) => (
-//       <Languages
-//         data={languages}
-//         key={`${languages.codeType}`}
-//       />
-//     ))}
-//   </div>
-// );
-
-// Skills.propTypes = {
-//   data: PropTypes.arrayOf(PropTypes.exact({
-//     codeType: PropTypes.string,
-//     tools: PropTypes.arrayOf(PropTypes.string),
-//   })),
-// };
-
-// Skills.defaultProps = {
-//   data: [],
-// };
-
 function Skills () {
 
   return (
@@ -37,6 +10,28 @@ function Skills () {
       <div className="heading-bar">
         <h5>My Knowledge & Skills</h5>
       </div>
+
+      
+      <table className='tb-summary'>
+        <tbody>
+          <tr>
+            <th>Backend</th>
+            <td>Python, C, Java</td>
+          </tr>
+          <tr>
+            <th>Frontend</th>
+            <td>HTML5, CSS3, JavaScript, React</td>
+          </tr>
+          <tr>
+            <th>Database</th>
+            <td>MySQL</td>
+          </tr>
+          <tr>
+            <th>Tools</th>
+            <td>IntelliJ IDEA, VSCode, Git, Github, Matlab, Figma, Adobe Illustrator</td>
+          </tr>
+        </tbody>
+      </table>
       <Programming />
     </div>
   );

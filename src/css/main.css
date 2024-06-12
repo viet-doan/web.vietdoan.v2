@@ -13,6 +13,14 @@ body {
   font-family: 'poppins', 'Helvetica Neue', sans-serif;
 }
 /* General */
+.not-found {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* Text Fonts */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
@@ -51,6 +59,7 @@ p { font-size: 18px;}
 .nav-btn:hover,
 .btn-general:hover {
   background: #4190be;
+  cursor: pointer;
 }
 .heading-bar {
   background: linear-gradient(to right, #508EB1, #125377);
@@ -105,6 +114,14 @@ p { font-size: 18px;}
   padding: 0 16px;
   font-size: 20px;
 }
+.nav-item:hover {
+  padding: 6px 18px;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+  background: #4190be;
+}
 
 /* Main */
 /* Frequently Used Divs */
@@ -118,26 +135,6 @@ p { font-size: 18px;}
   display: flex;
   flex-direction: row;
   gap: 40px;
-}
-.split-70 {
-  display: inherit;
-  width: 70%;
-}
-.split-60 {
-  display: inherit;
-  width: 60%;
-}
-.split-50 {
-  display: inherit;
-  width: 50%;
-}
-.split-40 {
-  display: inherit;
-  width: 40%;
-}
-.split-30 {
-  display: inherit;
-  width: 30%;
 }
 
 /* Profile Card */
@@ -212,6 +209,7 @@ p { font-size: 18px;}
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-top: 20px;
 }
 .icon-skills {
   width: 60px;
@@ -314,6 +312,7 @@ footer {
     max-width: 500px;
     margin: auto;
     justify-content: center;
+    margin-top: 20px;
   }
   .events{
     max-width: 500px;
