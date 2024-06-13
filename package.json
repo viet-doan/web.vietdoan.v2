@@ -24,6 +24,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "gh-pages": {
+    "rewrites": "rewrites.json"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
