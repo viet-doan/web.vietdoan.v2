@@ -1,6 +1,6 @@
 // export default App;
 import React, { Suspense, lazy } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/main.css'; // All of our styles
 
 const { PUBLIC_URL } = process.env;
@@ -15,7 +15,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App = () => (
-  <HashRouter basename={PUBLIC_URL}>
+  <BrowserRouter basename={PUBLIC_URL}>
     {/* <Suspense fallback={<Main />}> */}
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
@@ -29,7 +29,7 @@ const App = () => (
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
-  </HashRouter>
+  </BrowserRouter>
 );
 
 export default App;
