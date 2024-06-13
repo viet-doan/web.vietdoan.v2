@@ -1,7 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-// import Details from './About/Details';
 
 function Summary () {
   const uniURL = 'https://www.unimelb.edu.au/';
