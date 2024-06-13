@@ -1,8 +1,11 @@
+import catIcon from '../assets/cat-icon.png';
+
 function Navigation() {
+
   return (
     <nav className="navbar">
-      <div className="navMain nav-left">Viet Doan</div>
-      <div className="navLinks">
+      <div className="nav-left">
+        <img className="nav-icon" src={catIcon} />
         <a className="nav-item" href="/">Home</a>
         <a className="nav-item" href="/About">About</a>
         <a className="nav-item" href="/Projects">Projects</a>

@@ -64,9 +64,10 @@ p { font-size: 18px;}
   padding: 12px 24px;
   border: none;
   font-size: 18px;
-  color: #fff;
+  color: #ff8c00;
   border-radius: 10px;
-  background: #276e97;
+  /* background: #276e97; */
+  /* background: #fa8532; */
 }
 .nav-btn:hover,
 .btn-general:hover {
@@ -98,7 +99,7 @@ p { font-size: 18px;}
   justify-content: center;
   align-items: center;
   grid-template-rows: 100%;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
 
   position: fixed;
   top: 0;
@@ -114,15 +115,23 @@ p { font-size: 18px;}
 }
 .nav-left {
   justify-self: flex-start;
+  justify-content: flex-end !important;
   position: relative;
   left: 8vw;
+  height: 40px;
 }
 .nav-right {
   justify-self: flex-end;
   position: relative;
   right: 8vw;
 }
+.nav-icon {
+  position: relative;
+  top: 6px;
+  margin-right: 16px;
+}
 .nav-item {
+  justify-content: center;
   padding: 0 16px;
   font-size: 20px;
 }
@@ -192,6 +201,18 @@ p { font-size: 18px;}
   font-size: 7vw;
   font-size: min(7vw, 114px); 
   line-height: calc(7vw + 40px);
+}
+.icon-arrow {
+  position: relative;
+  top: 2px;
+  margin:10px;
+  fill: #ff8c00;
+}
+.links {
+  text-decoration: none;
+  color: #ff8c00;
+  font-size: 20px;
+  margin-right: 40px;
 }
 
 /* About Page */
@@ -310,7 +331,6 @@ footer {
   }
 
   /* Navigation */
-  .navLinks,
   .nav-btn {
     display: none !important;
   }
