@@ -24,7 +24,7 @@ function Landing() {
         <h1>Hi! 😊<br />I'm Viet Doan</h1>
         <p>I am currently a Computer Science student at the University of Melbourne.
           <br></br>And this website is my first React Project.</p>
-        <span>
+        <div className='column'>
           <a className='links' href='/About'>
           More about me 
           <span className='icon-arrow'>{arrow}</span>
@@ -34,7 +34,7 @@ function Landing() {
           Old version of this website
             <span className='icon-arrow'>{arrow}</span>
           </a>
-        </span>
+        </div>
 
         {/* Skills */}
         <div className="column">

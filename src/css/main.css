@@ -192,8 +192,7 @@ p { font-size: 18px;}
   position: relative;
   top: 60px;
   width: 84vw;
-  margin: 40px auto;
-  margin-bottom: 100px;
+  margin: 14px auto 100px;
 }
 
 /* Landing Page */
@@ -212,7 +211,7 @@ p { font-size: 18px;}
   text-decoration: none;
   color: #ff8c00;
   font-size: 20px;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 /* About Page */

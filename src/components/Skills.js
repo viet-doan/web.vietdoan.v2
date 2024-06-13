@@ -8,7 +8,7 @@ function Skills () {
   return (
     <div id="skills">
       <div className="heading-bar">
-        <h5>My Knowledge & Skills</h5>
+        <h5>Knowledge & Skills</h5>
       </div>
 
       
