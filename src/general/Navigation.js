@@ -8,7 +8,7 @@ function Navigation() {
         <a className="nav-item" href="/Projects">Projects</a>
         {/* <a className="nav-item" href="/Experiences">Experiences</a> */}
       </div>
-      <a className="nav-btn nav-right" href="/#contact">Contact</a>
+      <a className="nav-btn nav-right" href="/Contact">Contact</a>
     </nav>
   );
 }

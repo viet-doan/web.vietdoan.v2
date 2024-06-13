@@ -13,7 +13,7 @@ import timeline from '../data/timeline';
 // NOTE: sections are displayed in order defined.
 const sections = {
   Summary: () => <Summary data={summary} />,
-  // Skills: () => <Skills data={skills} />,
+  // Skills: () => <Skills skills={skills} />,
   Timeline: () => <Timeline data={timeline} />,
 };
 

@@ -30,6 +30,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 /* Text Fonts */
 h1, h2, h3, h4, h5, h6, p {
@@ -40,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 h1 { font-size: 100px;}
-h2 { font-size: 48px;}
+h2 { font-size: 64px;}
 h3 { font-size: 32px;}
 h4 { font-size: 28px;}
 h5 { font-size: 24px;}
@@ -147,6 +148,9 @@ p { font-size: 18px;}
   flex-direction: row;
   gap: 40px;
 }
+.split-50 {
+  width: 50%;
+}
 
 /* Profile Card */
 .container-card {
@@ -225,6 +229,21 @@ p { font-size: 18px;}
 }
 .icon-skills {
   width: 60px;
+}
+
+/* Project Page */
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.snippets {
+  width: fit-content;
+}
+.snippet {
+  width: 500px;
+  place-self: center;
 }
 
 /* Contact Form */
@@ -371,6 +390,12 @@ footer {
   }
   .events li {
     list-style: none;
+  }
+
+  /* Projects */
+  .descriptions {
+    max-width: 500px;
+    margin: auto;
   }
 
   /* Form */
