@@ -7,7 +7,7 @@ const skills = [
       '🚢 Shipped koicorner.art (Personal Art Gallery).',
       '💻 Learned Figma.',
       '‍👨‍💻 Learned React.',
-      '💼 Completed the Internship at Quicksite continue to become a volunteer as a React Platform Developer.',
+      '💼 Invited to continue as a Volunteer Associate Software Engineer at Quicksite',
       '🚢 Shipped this site (First React Project).'
     ],
   },
