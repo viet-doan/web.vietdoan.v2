@@ -264,6 +264,7 @@ p { font-size: 18px;}
 .snippet {
   width: 500px;
   place-self: center;
+  border-radius: 10px;
 }
 
 /* Contact Form */

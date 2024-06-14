@@ -16,8 +16,8 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
-    {/* <Suspense fallback={<Main />}> */}
-    <Suspense fallback={<div>Loading...</div>}>
+    {/* Loading when re-rendering */}
+    {/* <Suspense fallback={<div>Loading...</div>}> */}
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
@@ -28,7 +28,7 @@ const App = () => (
         {/* <Route path="/resume" element={<Resume />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </Suspense>
+    {/* </Suspense> */}
   </BrowserRouter>
 );
 
