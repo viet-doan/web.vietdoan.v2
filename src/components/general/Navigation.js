@@ -1,5 +1,5 @@
 import React, { useState, useEffect  } from 'react';
-import catIcon from '../assets/cat-icon.png';
+import catIcon from '../../assets/cat-icon.png';
 
 function Navigation() {
   const [menuIsActive, setMenuIsActive] = useState(false);

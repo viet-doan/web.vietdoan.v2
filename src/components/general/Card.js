@@ -1,4 +1,4 @@
-import profile from '../assets/profile.jpg';
+import profile from '../../assets/profile.jpg';
 
 function Card() {
   const vietLinkedinURL = "https://www.linkedin.com/in/viet-doan-vqd/";

@@ -1,5 +1,5 @@
-import Navigation from '../general/Navigation';
-import Footer from '../general/Footer';
+import Navigation from '../components/general/Navigation';
+import Footer from '../components/general/Footer';
 
 import Tasks from '../components/Tasks';
 import projects from '../data/projects';

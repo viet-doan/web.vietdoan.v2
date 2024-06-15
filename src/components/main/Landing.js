@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from '../general/Card';
 
-import Skills from '../components/Skills';
-import skills from '../data/skills';
+import Skills from '../Skills';
+import skills from '../../data/skills';
 
-import '../css/main.css';
+import '../../css/main.css';
 
 const sections = {
   Skills: () => <Skills data={skills} />,

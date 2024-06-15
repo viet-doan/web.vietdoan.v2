@@ -1,6 +1,6 @@
-import Navigation from '../general/Navigation';
-import Footer from '../general/Footer';
-import Card from '../general/Card';
+import Navigation from '../components/general/Navigation';
+import Footer from '../components/general/Footer';
+import Card from '../components/general/Card';
 
 import Summary from '../components/Summary';
 // import Skills from '../components/Skills';
