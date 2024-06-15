@@ -2,7 +2,7 @@ import React, { useState, useEffect  } from 'react';
 import catIcon from '../assets/cat-icon.png';
 
 function Navigation() {
-  const [menuIsActive, setMenuIsActive] = React.useState(false);
+  const [menuIsActive, setMenuIsActive] = useState(false);
 
   // Closes minimal navbar when user interacts through click/scroll/resize
   useEffect(() => {

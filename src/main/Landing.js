@@ -31,7 +31,7 @@ function Landing() {
           <span className='icon-arrow'>{arrow}</span>
           </a>
 
-          <a className='links' href={oldPortfolio} target='_blank'>
+          <a className='links' href={oldPortfolio} target='_blank' rel="noreferrer">
           Old version of this website
             <span className='icon-arrow'>{arrow}</span>
           </a>

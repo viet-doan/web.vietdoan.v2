@@ -19,15 +19,15 @@ function Summary () {
           </tr>
           <tr>
             <th>University</th>
-            <td><a href={uniURL} target='_blank'>The University of Melbourne</a></td>
+            <td><a href={uniURL} target='_blank' rel="noreferrer">The University of Melbourne</a></td>
           </tr>
           <tr>
             <th>Degree</th>
-            <td><a href={degreeURL} target='_blank'>Bachelor of Science</a></td>
+            <td><a href={degreeURL} target='_blank' rel="noreferrer">Bachelor of Science</a></td>
           </tr>
           <tr>
             <th>Major</th>
-            <td><a href={majorURL} target='_blank'>Computing and Software Systems</a></td>
+            <td><a href={majorURL} target='_blank' rel="noreferrer">Computing and Software Systems</a></td>
           </tr>
           <tr>
             <th>Graduation</th>
