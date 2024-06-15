@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/web.vietdoan.v2/static/css/main.a4214796.css",
-    "main.js": "/web.vietdoan.v2/static/js/main.2a78fa42.js",
-    "static/js/895.cd9f6c1b.chunk.js": "/web.vietdoan.v2/static/js/895.cd9f6c1b.chunk.js",
-    "static/js/86.9aba07fa.chunk.js": "/web.vietdoan.v2/static/js/86.9aba07fa.chunk.js",
-    "static/js/223.703ec8e6.chunk.js": "/web.vietdoan.v2/static/js/223.703ec8e6.chunk.js",
-    "static/js/788.995826c9.chunk.js": "/web.vietdoan.v2/static/js/788.995826c9.chunk.js",
-    "static/js/900.a82ff4fd.chunk.js": "/web.vietdoan.v2/static/js/900.a82ff4fd.chunk.js",
-    "static/js/802.91f72816.chunk.js": "/web.vietdoan.v2/static/js/802.91f72816.chunk.js",
-    "static/media/profile.jpg": "/web.vietdoan.v2/static/media/profile.96fd5662a461716a8ab8.jpg",
-    "static/media/lucky_thirteen.png": "/web.vietdoan.v2/static/media/lucky_thirteen.a9dd70e760dcbfcdf9f5.png",
-    "static/media/koicorner_web.png": "/web.vietdoan.v2/static/media/koicorner_web.1d498924b8ee39f6e77e.png",
-    "static/media/socket_code.png": "/web.vietdoan.v2/static/media/socket_code.eef7b018ea2072a86864.png",
-    "index.html": "/web.vietdoan.v2/index.html",
-    "main.a4214796.css.map": "/web.vietdoan.v2/static/css/main.a4214796.css.map",
-    "main.2a78fa42.js.map": "/web.vietdoan.v2/static/js/main.2a78fa42.js.map",
-    "895.cd9f6c1b.chunk.js.map": "/web.vietdoan.v2/static/js/895.cd9f6c1b.chunk.js.map",
-    "86.9aba07fa.chunk.js.map": "/web.vietdoan.v2/static/js/86.9aba07fa.chunk.js.map",
-    "223.703ec8e6.chunk.js.map": "/web.vietdoan.v2/static/js/223.703ec8e6.chunk.js.map",
-    "788.995826c9.chunk.js.map": "/web.vietdoan.v2/static/js/788.995826c9.chunk.js.map",
-    "900.a82ff4fd.chunk.js.map": "/web.vietdoan.v2/static/js/900.a82ff4fd.chunk.js.map",
-    "802.91f72816.chunk.js.map": "/web.vietdoan.v2/static/js/802.91f72816.chunk.js.map"
+    "main.css": "/static/css/main.f51bba14.css",
+    "main.js": "/static/js/main.d02ad4fd.js",
+    "static/js/895.59f2d685.chunk.js": "/static/js/895.59f2d685.chunk.js",
+    "static/js/86.f7f72b67.chunk.js": "/static/js/86.f7f72b67.chunk.js",
+    "static/js/953.f76560ab.chunk.js": "/static/js/953.f76560ab.chunk.js",
+    "static/js/788.1dde37f8.chunk.js": "/static/js/788.1dde37f8.chunk.js",
+    "static/js/900.a82ff4fd.chunk.js": "/static/js/900.a82ff4fd.chunk.js",
+    "static/js/802.91f72816.chunk.js": "/static/js/802.91f72816.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.96fd5662a461716a8ab8.jpg",
+    "static/media/viet_web.png": "/static/media/viet_web.1c3be2f272d28fb816ad.png",
+    "static/media/lucky_thirteen.png": "/static/media/lucky_thirteen.a9dd70e760dcbfcdf9f5.png",
+    "static/media/koicorner_web.png": "/static/media/koicorner_web.1d498924b8ee39f6e77e.png",
+    "static/media/socket_code.png": "/static/media/socket_code.eef7b018ea2072a86864.png",
+    "index.html": "/index.html",
+    "main.f51bba14.css.map": "/static/css/main.f51bba14.css.map",
+    "main.d02ad4fd.js.map": "/static/js/main.d02ad4fd.js.map",
+    "895.59f2d685.chunk.js.map": "/static/js/895.59f2d685.chunk.js.map",
+    "86.f7f72b67.chunk.js.map": "/static/js/86.f7f72b67.chunk.js.map",
+    "953.f76560ab.chunk.js.map": "/static/js/953.f76560ab.chunk.js.map",
+    "788.1dde37f8.chunk.js.map": "/static/js/788.1dde37f8.chunk.js.map",
+    "900.a82ff4fd.chunk.js.map": "/static/js/900.a82ff4fd.chunk.js.map",
+    "802.91f72816.chunk.js.map": "/static/js/802.91f72816.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4214796.css",
-    "static/js/main.2a78fa42.js"
+    "static/css/main.f51bba14.css",
+    "static/js/main.d02ad4fd.js"
   ]
 }
