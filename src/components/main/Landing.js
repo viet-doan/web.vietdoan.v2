@@ -17,26 +17,37 @@ function Landing() {
 
   return (
     <main className="main row">
-      <Card />
+      <div className="desktop">
+        <Card />
+      </div>
+
       {/* Welcome Section */}
       <div className="column landing">
+        
         <div className="heading-bar">
           <h5>Welcome to my Portfolio</h5>
         </div>
-        <h1>Hi!👋<br />I'm Viet Doan</h1>
+        <h1 className="desktop">Hi!👋<br/>I'm Viet Doan</h1>
+        <h1 className="minimal">Hi!👋 I'm<br/> Viet Doan</h1>
+
+        <div className="minimal">
+          <Card />
+        </div>
+
         <p>I am currently a Computer Science student at the University of Melbourne.
           <br></br>And this website is my first React Project.</p>
-        <div className='column'>
+        <span>
           <Link className='links' to='/About'>
-          More about me 
-          <span className='icon-arrow'>{arrow}</span>
+            More about me 
+            <span className='icon-arrow'>{arrow}</span>
           </Link>
-
+          
+          <br></br>
           <a className='links' href={oldPortfolio} target='_blank' rel="noreferrer">
-          Old version of this website
+          My Old Online Portfolio
             <span className='icon-arrow'>{arrow}</span>
           </a>
-        </div>
+        </span>
 
         {/* Skills */}
         <div className="column">

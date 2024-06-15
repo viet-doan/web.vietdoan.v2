@@ -53,12 +53,12 @@ h1, h2, h3, h4, h5, h6, p {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
-h1 { font-size: 100px;}
-h2 { font-size: 64px;}
-h3 { font-size: 32px;}
-h4 { font-size: 28px;}
+h1 { font-size: 100px; line-height: 100px;}
+h2 { font-size: 64px; line-height: 64px;}
+h3 { font-size: 32px; line-height: 32px;}
+h4 { font-size: 28px; line-height: 28px;}
 h5 { font-size: 24px;}
-h6 { font-size: 22px;}
+h6 { font-size: 22px; line-height: 22px;}
 p { font-size: 18px;}
 
 /* Buttons and Bars */
@@ -160,7 +160,7 @@ p { font-size: 18px;}
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 .row {
   display: flex;
@@ -199,13 +199,17 @@ p { font-size: 18px;}
 
 /* Main */
 .main {
-  position: relative;
-  top: 60px;
   width: 84vw;
-  margin: 14px auto 100px;
+  margin: 100px auto 40px;
 }
 
 /* Landing Page */
+.landing {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .landing h1{
   font-size: 7vw;
   font-size: min(7vw, 114px); 
@@ -243,11 +247,10 @@ p { font-size: 18px;}
   gap: 10px;
 }
 .sub-header {
-  margin-top: 0;
+  margin-top: 20px;
 }
 .events {
-  margin-top: 0;
-  margin-bottom: 40px;
+  margin: 0 0 0;
 }
 .events {
   padding-inline-start: 20px;
@@ -317,11 +320,9 @@ footer {
 }
 
 .cr-container {
-  position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  bottom: 0;
   width: 100vw;
   background-color: var(--containers);
   color: var(--text);
@@ -334,12 +335,19 @@ footer {
 }
 
 @media screen and (min-width: 950px) {
+  .minimal {
+    display: none;
+  }
   .menu-icon {
     display: none !important;
   }
 }
 
 @media screen and (max-width: 950px) {
+  .desktop {
+    display: none;
+  }
+
   .landing-main,
   .row {
     flex-direction: column;
@@ -373,7 +381,6 @@ footer {
     margin: auto;
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 20px;
   }
   .btn-general {
     align-self: center;
@@ -414,6 +421,7 @@ footer {
   .tb-summary {
     max-width: 500px;
     margin: auto;
+    margin-top: 40px;
   }
   .container-skills {
     max-width: 500px;
@@ -421,10 +429,12 @@ footer {
     justify-content: center;
     margin-top: 20px;
   }
+  .sub-header {
+    margin-top: 40px;
+  }
   .events{
     max-width: 500px;
     margin: auto;
-    margin-bottom: 40px;
     text-align: center;
   }
   .events li {
@@ -435,6 +445,10 @@ footer {
   .descriptions {
     max-width: 500px;
     margin: auto;
+  }
+  #projects .row {
+    flex-direction: column-reverse;
+    gap: 20px;
   }
 
   /* Form */

@@ -22,7 +22,10 @@ function About() {
     <div className='App'>
       <Navigation />
       <main className="main row">
-        <Card />
+        <div className="desktop">
+          <Card />
+        </div>
+
         <div className="column">
           {Object.entries(sections).map(([name, Section]) => (
             <Section key={name} />

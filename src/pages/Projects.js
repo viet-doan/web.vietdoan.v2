@@ -13,12 +13,10 @@ function Projects() {
   return (
     <div className='App'>
       <Navigation />
-      <main className="main row">
-        <div className="column">
-          {Object.entries(sections).map(([name, Section]) => (
-            <Section key={name} />
-          ))}
-        </div>
+      <main id="projects" className="main row">
+        {Object.entries(sections).map(([name, Section]) => (
+          <Section key={name} />
+        ))}
       </main>
       <Footer />
     </div>

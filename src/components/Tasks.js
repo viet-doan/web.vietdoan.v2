@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Programme from './Programme/Programme';
 
 const Tasks = ({ data }) => (
-  <div id="projects" className="column">
+  <div className="column">
     <h2>My Projects</h2>
     {data.map((task) => (
       <Programme
