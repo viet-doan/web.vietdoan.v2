@@ -42,7 +42,7 @@ function Navigation() {
         </div>
       </div>
       
-      <a className="nav-btn nav-right" href="/Contact">Contact</a>
+      <Link className="nav-btn nav-right" to="/Contact">Contact</Link>
       <button className='btn-menu nav-right' onClick={() => setMenuIsActive(!menuIsActive)}>
         <div className={`menu-icon ${menuIsActive ? 'active' : ''}`}>
           <div className="line1"></div>
