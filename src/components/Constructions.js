@@ -9,7 +9,7 @@ const Constructions = () => (
         <meta name="description" content="The page is under constructions." />
       </Helmet>
       <div className='not-found'>
-        <h1>This page is currently under constructions</h1>
+        <h3>This page is currently under constructions👷🏗️</h3>
         <p>Please come back later</p>
         <p>Return <Link to="/">home</Link>.</p>
       </div>

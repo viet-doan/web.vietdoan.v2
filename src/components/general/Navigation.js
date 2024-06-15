@@ -36,11 +36,9 @@ function Navigation() {
         <img className="nav-icon" src={catIcon} alt='Kitty Icon'/>
         <a className="nav-name" href="/"><h3>Viet Doan</h3></a>
         <div className="navLinks">  
-          <a className="nav-item" href="/">Home</a>
-          <a className="nav-item" href="/About">About</a>
-          <a className="nav-item" href="/Projects">Projects</a>
-          <Link className="nav-item" to="about">About</Link>
-
+          <Link className="nav-item" to="/">Home</Link>
+          <Link className="nav-item" to="/About">About</Link>
+          <Link className="nav-item" to="/Projects">Projects</Link>
         </div>
       </div>
       
@@ -52,10 +50,10 @@ function Navigation() {
           <div className="line3"></div>
         </div>
         <div className={`${menuIsActive ? 'minimal-navLinks' : 'minimal'}`}>
-          <a className="nav-item" href="/">Home</a>
-          <a className="nav-item" href="/About">About</a>
-          <a className="nav-item" href="/Projects">Projects</a>
-          <a className="nav-item" href="/Contact">Contact</a>
+          <Link className="nav-item" to="/">Home</Link>
+          <Link className="nav-item" to="/About">About</Link>
+          <Link className="nav-item" to="/Projects">Projects</Link>
+          <Link className="nav-item" to="/Contact">Contact</Link>
         </div>
       </button>
     </nav>

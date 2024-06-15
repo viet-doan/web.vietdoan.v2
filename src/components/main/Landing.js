@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from 'react';
 import Card from '../general/Card';
 
@@ -22,14 +23,14 @@ function Landing() {
         <div className="heading-bar">
           <h5>Welcome to my Portfolio</h5>
         </div>
-        <h1>Hi! 😊<br />I'm Viet Doan</h1>
+        <h1>Hi!👋<br />I'm Viet Doan</h1>
         <p>I am currently a Computer Science student at the University of Melbourne.
           <br></br>And this website is my first React Project.</p>
         <div className='column'>
-          <a className='links' href='/About'>
+          <Link className='links' to='/About'>
           More about me 
           <span className='icon-arrow'>{arrow}</span>
-          </a>
+          </Link>
 
           <a className='links' href={oldPortfolio} target='_blank' rel="noreferrer">
           Old version of this website

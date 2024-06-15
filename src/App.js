@@ -2,7 +2,6 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/main.css'; // All of our styles
-
 // const { PUBLIC_URL } = process.env;
 
 // Every route - we lazy load so that each page can be chunked
@@ -14,12 +13,6 @@ const Projects = lazy(() => import('./pages/Projects'));
 const Contact = lazy(() => import('./pages/Contact'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
-// import Index from './pages/Index';
-// import About from './pages/About';
-// import Projects from './pages/Projects';
-// import Contact from './pages/Contact';
-// import NotFound from './pages/NotFound';
-
 const App = () => (
   // <BrowserRouter basename={PUBLIC_URL}>
     <BrowserRouter>
@@ -28,12 +21,9 @@ const App = () => (
       <Routes>
         {/* <Route path="/" element={<Index />} /> */}
         <Route index element={<Index />} />
-        <Route path="about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        {/* <Route path="/Experiences" element={<Experiences />} /> */}
-        <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/stats" element={<Stats />} /> */}
-        {/* <Route path="/resume" element={<Resume />} /> */}
+        <Route path="About" element={<About />} />
+        <Route path="Projects" element={<Projects />} />
+        <Route path="Contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
