@@ -1,5 +1,6 @@
 import React, { useState, useEffect  } from 'react';
 import catIcon from '../../assets/cat-icon.png';
+import { Link } from "react-router-dom";
 
 function Navigation() {
   const [menuIsActive, setMenuIsActive] = useState(false);
@@ -38,6 +39,8 @@ function Navigation() {
           <a className="nav-item" href="/">Home</a>
           <a className="nav-item" href="/About">About</a>
           <a className="nav-item" href="/Projects">Projects</a>
+          <Link className="nav-item" to="about">About</Link>
+
         </div>
       </div>
       

@@ -1,6 +1,6 @@
 // export default App;
 import React, { Suspense, lazy } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/main.css'; // All of our styles
 
 // const { PUBLIC_URL } = process.env;
@@ -14,14 +14,21 @@ const Projects = lazy(() => import('./pages/Projects'));
 const Contact = lazy(() => import('./pages/Contact'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
+// import Index from './pages/Index';
+// import About from './pages/About';
+// import Projects from './pages/Projects';
+// import Contact from './pages/Contact';
+// import NotFound from './pages/NotFound';
+
 const App = () => (
   // <BrowserRouter basename={PUBLIC_URL}>
-    <HashRouter>
+    <BrowserRouter>
     {/* Loading when re-rendering */}
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/" element={<Index />} /> */}
+        <Route index element={<Index />} />
+        <Route path="about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         {/* <Route path="/Experiences" element={<Experiences />} /> */}
         <Route path="/contact" element={<Contact />} />
@@ -30,7 +37,7 @@ const App = () => (
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
-  </HashRouter>
+  </BrowserRouter>
 );
 
 export default App;
