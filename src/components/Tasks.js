@@ -22,6 +22,7 @@ Tasks.propTypes = {
     website: PropTypes.string,
     languagesAndTools: PropTypes.string,
     image: PropTypes.string,
+    date: PropTypes.string,
   })),
 };
 

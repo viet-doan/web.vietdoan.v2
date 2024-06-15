@@ -4,9 +4,10 @@ import catIcon from '../assets/cat-icon.png';
 function Navigation() {
   const [menuIsActive, setMenuIsActive] = React.useState(false);
 
+  // Closes minimal navbar when user interacts through click/scroll/resize
   useEffect(() => {
     const handleInteract = (event) => {
-      if (event.type!='click') {
+      if (event.type!=='click') {
         setMenuIsActive(false);
         return;
       }

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Programme = ({
   data: {
-    name,descriptions,website,languagesAndTools,image
+    name,descriptions,website,languagesAndTools,image,date
   },
 }) => (
   <div className="row">
@@ -22,11 +22,15 @@ const Programme = ({
       ) : null}
 
       {website ? (
-        <p key={website}><strong>Website: </strong><a href={website} target='_blank'>{website}</a></p>
+        <p key={website}><strong>Website: </strong><a href={website} rel="noreferrer" target='_blank'>{website}</a></p>
       ) : null}
 
       {languagesAndTools ? (
         <p key={languagesAndTools}><strong>Languages & Tools: </strong>{languagesAndTools}</p>
+      ) : null}
+
+      {date ? (
+        <p key={date}><strong>Dates: </strong>{date}</p>
       ) : null}
     </article>
   </div>
