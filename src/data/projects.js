@@ -11,7 +11,6 @@ const projects = [
   //   languagesAndTools: 'HTML, CSS, JavaScript, React, Figma',
   // },
   {
-    inProgress: false,
     name: 'Personal Portfolio (This Website)',
     descriptions: 'This website represents my debut venture into the world of React, and I\'m thrilled to showcase my first React project. As I delved into the framework, I had the opportunity to apply a range of React concepts, including multi-page, data validation, reading JSON data. I utilized react-router-dom to seamlessly navigate between pages, providing a cohesive user experience. And by incorporating prop-types, I ensured the integrity of the JSON data being consumed, guaranteeing a robust and reliable application.',  
     website: 'https://viet-doan.com/',

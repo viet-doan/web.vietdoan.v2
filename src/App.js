@@ -15,7 +15,8 @@ const Contact = lazy(() => import('./pages/Contact'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
+  // <BrowserRouter basename={PUBLIC_URL}>
+    <BrowserRouter>
     {/* Loading when re-rendering */}
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
