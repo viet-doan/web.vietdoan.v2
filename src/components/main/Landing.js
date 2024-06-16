@@ -36,18 +36,16 @@ function Landing() {
 
         <p>I am currently a Computer Science student at the University of Melbourne.
           <br></br>And this website is my first React Project.</p>
-        <span>
-          <Link className='links' to='/About'>
-            More about me 
-            <span className='icon-arrow'>{arrow}</span>
-          </Link>
-          
-          <br></br>
-          <a className='links' href={oldPortfolio} target='_blank' rel="noreferrer">
-          My Old Online Portfolio
-            <span className='icon-arrow'>{arrow}</span>
-          </a>
-        </span>
+
+        <Link className='links' to='/About'>
+          More about me 
+          <span className='icon-arrow'>{arrow}</span>
+        </Link>
+        
+        <a className='links' href={oldPortfolio} target='_blank' rel="noreferrer">
+        My Old Online Portfolio
+          <span className='icon-arrow'>{arrow}</span>
+        </a>
 
         {/* Skills */}
         <div className="column">
