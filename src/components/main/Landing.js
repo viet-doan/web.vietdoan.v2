@@ -53,8 +53,6 @@ function Landing() {
             <Section key={name} />
           ))}
         </div>
-
-        {/* <Form /> */}
       </div>
     </main>
   );
