@@ -20,7 +20,7 @@ function Skills () {
           </tr>
           <tr>
             <th>Frontend</th>
-            <td>HTML5, CSS3, JavaScript, React, Tailwind</td>
+            <td>HTML5, CSS3, JavaScript, React, TailwindCSS, Typescript</td>
           </tr>
           <tr>
             <th>Database</th>
