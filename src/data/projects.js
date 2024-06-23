@@ -3,6 +3,7 @@ import EmailClientIMG from '../assets/socket_code.png';
 import LuckyThirteenIMG from '../assets/lucky_thirteen.png';
 import VietDoanWeb2 from '../assets/viet_web.png';
 import DessertCoIMG from '../assets/dessert_co.png';
+import TiktokAI from '../assets/tiktok_hackathon.png';
 
 const projects = [
   // {
@@ -12,22 +13,31 @@ const projects = [
   //   languagesAndTools: 'HTML, CSS, JavaScript, React, Figma',
   // },
   {
+    name: 'Evolving Tiktok Live @ Tiktok TechJam Hackathon',
+    descriptions: 'Currently in Progress',  
+    website: '',
+    // github: '',
+    languagesAndTools: 'HTML, CSS, Javascript, Typescript, TailwindCSS, React, Figma',
+    image: TiktokAI,
+    date: '8th June, 2024 (Currently in Progress)',
+  },
+  {
     name: 'Personal Portfolio (This Website)',
     descriptions: 'This website represents my debut venture into the world of React, and I\'m thrilled to showcase my first React project. As I delved into the framework, I had the opportunity to apply a range of React concepts, including multi-page, data validation, reading JSON data. I utilized react-router-dom to seamlessly navigate between pages, providing a cohesive user experience. And by incorporating prop-types, I ensured the integrity of the JSON data being consumed, guaranteeing a robust and reliable application.',  
     website: 'https://viet-doan.com/',
     // github: '',
     languagesAndTools: 'HTML5, CSS3, Javascript, Figma, React',
     image: VietDoanWeb2,
-    date: 'June, 2024',
+    date: '9th June, 2024 (Duration: 1 week) - Latest Update on: 23rd June, 2024',
   },
   {
     name: 'Dessert Co - Website Template',
-    descriptions: '...',  
+    descriptions: 'Designed and developed a modern, minimalist website template for a fictional dessert store during an internship at QuickSite.guru. Emphasized clean HTML structure and CSS styling to ensure a professional and user-friendly interface. The template features a responsive design that adapts seamlessly across various devices, adhering to current web standards and utilizing CSS variables for easy customization. Role included extensive testing, refining based on feedback, and documenting the template\'s usage instructions, contributing to its successful publication on the QuickSite.guru platform.',  
     website: 'http://anai-9atmfta1xwyli1hklmwd.s3-website-ap-southeast-2.amazonaws.com/',
-    // github: 'https://github.com/viet-doan/dessert_co',
+    github: 'https://github.com/viet-doan/dessert_co',
     languagesAndTools: 'HTML5, CSS3, Javascript, Figma',
     image: DessertCoIMG,
-    date: 'June, 2024',
+    date: '8th May, 2024 (Duration: 4 weeks)',
   },
   {
     name: 'LuckyThirteen Card Game (University Project)',
@@ -36,7 +46,7 @@ const projects = [
     // github: '',
     languagesAndTools: 'Java, Object-Oriented Programming, UML Diagrams, UML Notations, Draw.io',
     image: LuckyThirteenIMG,
-    date: 'May, 2024',
+    date: '10th May, 2024 (Duration: 2 weeks)',
   },
   {
     name: 'Email Client (University Project)',
@@ -45,7 +55,7 @@ const projects = [
     // github: '',
     languagesAndTools: 'C Programming, Makefile, Socket Programming, Valgrind, Linux Commands',
     image: EmailClientIMG,
-    date: 'May, 2024',
+    date: '2nd May, 2024 (Duration: 2 weeks)',
   },
   {
     name: 'Koi Corner Personal Art Gallery',
@@ -54,7 +64,7 @@ const projects = [
     // github: 'https://github.com/viet-doan/koicorner',
     languagesAndTools: 'HTML, CSS, JavaScript',
     image: KoiCornerIMG,
-    date: 'April, 2024',
+    date: '9th April, 2024 (Duration: 3 weeks)',
   },
 ]
 

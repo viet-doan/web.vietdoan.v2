@@ -37,11 +37,6 @@ function Landing() {
 
         <p>I am currently a Computer Science student at the University of Melbourne.
           <br></br>And this website is my first React Project.</p>
-
-        {/* <Link className='links' to='/About'>
-          More about me 
-          <span className='icon-arrow'>{arrow}</span>
-        </Link> */}
         
         <a className='links' href={KoiCornerURL} target='_blank' rel="noreferrer">
         My Design Gallery
