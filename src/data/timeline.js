@@ -6,7 +6,8 @@ const skills = [
       '💼 Joined Quicksite as a Web Designer / HTML Dev Intern.',
       '🚢 Shipped koicorner.art (Personal Art Gallery).',
       '💻 Learned Figma.',
-      '‍👨‍💻 Learned React.',
+      '‍👨‍💻 Joined in my first Hackathon @ Tiktok Techjam',
+      '‍👨‍💻 Learned React, Typescript, TailwindCSS.',
       '💼 Invited to continue as a Volunteer Associate Software Engineer at Quicksite',
       '🚢 Shipped this site (First React Project).'
     ],
