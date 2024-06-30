@@ -1,15 +1,16 @@
 const skills = [
   {
     year: '2024',
-    events: ['‍💻 Learned HTML, CSS and Javascript.',
+    events: ['‍💻 Learnt HTML, CSS and Javascript.',
       '✍️ Created and Shipped my first website (old version of this site).',
       '💼 Joined Quicksite as a Web Designer / HTML Dev Intern.',
       '🚢 Shipped koicorner.art (Personal Art Gallery).',
-      '💻 Learned Figma.',
+      '💻 Learnt Figma.',
       '‍👨‍💻 Joined in my first Hackathon @ Tiktok Techjam',
-      '‍👨‍💻 Learned React, Typescript, TailwindCSS.',
+      '‍👨‍💻 Learnt React, Typescript, TailwindCSS.',
       '💼 Invited to continue as a Volunteer Associate Software Engineer at Quicksite',
-      '🚢 Shipped this site (First React Project).'
+      '🚢 Shipped this site (First React Project).',
+      '💼 Promoted to become Software Developer Lead / Mentor'
     ],
   },
   {
