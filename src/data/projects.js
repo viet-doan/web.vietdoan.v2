@@ -33,7 +33,7 @@ const projects = [
     links: {},
     languagesAndTools: 'HTML5, CSS3, Javascript, Figma, React',
     image: VietDoanWeb2,
-    date: '9th June, 2024 (Duration: 1 week) - Latest Update on: 7th July, 2024',
+    date: '9th June, 2024 (Duration: 1 week)',
   },
   {
     name: 'Dessert Co - Website Template',
