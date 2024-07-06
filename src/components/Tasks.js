@@ -20,6 +20,8 @@ Tasks.propTypes = {
     name: PropTypes.string,
     descriptions: PropTypes.string,
     website: PropTypes.string,
+    github: PropTypes.string.isRequired,
+    links: PropTypes.objectOf(PropTypes.string).isRequired,
     languagesAndTools: PropTypes.string,
     image: PropTypes.string,
     date: PropTypes.string,

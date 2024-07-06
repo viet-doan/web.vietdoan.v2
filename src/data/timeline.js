@@ -8,9 +8,9 @@ const skills = [
       '💻 Learnt Figma.',
       '‍👨‍💻 Joined in my first Hackathon @ Tiktok Techjam',
       '‍👨‍💻 Learnt React, Typescript, TailwindCSS.',
-      '💼 Invited to continue as a Volunteer Associate Software Engineer at Quicksite',
+      // '💼 Invited to continue as a Volunteer Associate Software Engineer at Quicksite',
       '🚢 Shipped this site (First React Project).',
-      '💼 Promoted to become Software Developer Lead / Mentor'
+      // '💼 Promoted to become Software Developer Lead / Mentor'
     ],
   },
   {

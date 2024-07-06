@@ -3,35 +3,48 @@ import PropTypes from 'prop-types';
 
 const Programme = ({
   data: {
-    name,descriptions,website,languagesAndTools,image,date
+    name, descriptions, website, github, links, languagesAndTools, image, date
   },
 }) => (
   <div className="row">
     <div className="column snippets">
-      <img className="snippet" src={image} alt="Project"></img>
+      {image && <img className="snippet" src={image} alt="Project" />}
     </div>
     <article className="descriptions">
-      {name ? (
+      {name && (
         <div className="heading-bar">
-          <h5 key={name}>{name}</h5>
+          <h5>{name}</h5>
         </div>
-      ) : null}
-      
-      {descriptions ? (
-        <p key={descriptions}>{descriptions}</p>
-      ) : null}
+      )}
 
-      {website ? (
-        <p key={website}><strong>Website: </strong><a href={website} rel="noreferrer" target='_blank'>{website}</a></p>
-      ) : null}
+      {descriptions && (
+        <p>{descriptions}</p>
+      )}
 
-      {languagesAndTools ? (
-        <p key={languagesAndTools}><strong>Languages & Tools: </strong>{languagesAndTools}</p>
-      ) : null}
+      {website && (
+        <p><strong>Website: </strong><a href={website} rel="noreferrer" target='_blank'>{website}</a></p>
+      )}
 
-      {date ? (
-        <p key={date}><strong>Dates: </strong>{date}</p>
-      ) : null}
+      {github && (
+        <p><strong>GitHub: </strong><a href={github} rel="noreferrer" target='_blank'>{github}</a></p>
+      )}
+
+      {links && Object.keys(links).length > 0 && (
+        <div className='otherLinks'>
+          <p><strong>Other Relevant Links: </strong></p>
+          {Object.entries(links).map(([key, value]) => (
+            <a key={key} href={value} target="_blank" rel="noreferrer">{key}</a>
+          ))}
+        </div>
+      )}
+
+      {languagesAndTools && (
+        <p><strong>Languages & Tools: </strong>{languagesAndTools}</p>
+      )}
+
+      {date && (
+        <p><strong>Dates: </strong>{date}</p>
+      )}
     </article>
   </div>
 );
@@ -41,8 +54,11 @@ Programme.propTypes = {
     name: PropTypes.string.isRequired,
     descriptions: PropTypes.string.isRequired,
     website: PropTypes.string,
+    github: PropTypes.string,
+    links: PropTypes.objectOf(PropTypes.string),
     languagesAndTools: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
+    image: PropTypes.string,
+    date: PropTypes.string.isRequired,
   }).isRequired,
 };
 
