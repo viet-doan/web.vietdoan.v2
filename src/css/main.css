@@ -327,7 +327,7 @@ footer {
 
 .cr-container {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
   align-items: center;
   width: 100vw;
   background-color: var(--containers);
@@ -335,9 +335,15 @@ footer {
   height: 32px;
   font-size: 16px;
 }
+.time-log {
+  text-align: left;
+  width: 50%;
+  margin-left: 8%;
+}
 .copyright {
-  position: relative;
-  right: 8vw;
+  text-align: right;
+  width: 50%;
+  margin-right: 8%;
 }
 
 @media screen and (min-width: 950px) {
@@ -448,13 +454,22 @@ footer {
   }
 
   /* Projects */
-  .descriptions {
-    max-width: 500px;
+  #projects .descriptions,
+  #projects .heading-bar {
+    max-width: 950px;
     margin: auto;
+  }
+  #projects .row,
+  #projects .col {
+    text-align: justify;
   }
   #projects .row {
     flex-direction: column-reverse;
     gap: 20px;
+  }
+
+  #projects .row.descriptions{
+    max-width: 950px !important;
   }
 
   /* Form */
