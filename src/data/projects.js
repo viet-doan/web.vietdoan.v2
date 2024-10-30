@@ -15,11 +15,11 @@ const projects = [
   //   languagesAndTools: 'HTML, CSS, JavaScript, React, Figma',
   // },
   {
-    name: 'PDAS_MERN Project',
+    name: 'Psychology Assignment Software',
     descriptions:
       'This project is a robust MERN stack platform that enhances interactive learning and streamlines assignment oversight for students and educators. By integrating AI-driven functionality with models like Gemini, Claude, and GPT, it optimizes response accuracy using Retrieval-Augmented Generation (RAG). The platform features a responsive, user-centric interface built with React Vite, Material UI, and Firebase Authentication, enabling tailored access. Additionally, advanced prompt engineering maintains a realistic AI persona, providing educators with efficient tools for assignment creation, detailed transcript analysis, and in-depth thematic assessments, ultimately enriching the learning experience.',
     languagesAndTools:
-      'HTML, CSS, JavaScript, TypeScript, React, Flask, Heroku, PyTorch',
+      'HTML, CSS, TypeScript, Figma, Material UI, Node JS, Express, MongoDB, Firebase Auth, Claude API, ChatGPT API, Gemini API',
     image: PDAS_MERN,
     date: '1st July, 2024 (Duration: 12 weeks)',
   },
