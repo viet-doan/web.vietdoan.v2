@@ -1,7 +1,7 @@
 import KoiCornerIMG from '../assets/koicorner_web.png';
 import EmailClientIMG from '../assets/socket_code.png';
 import LuckyThirteenIMG from '../assets/lucky_thirteen.png';
-import VietDoanWeb2 from '../assets/viet_web.png';
+// import VietDoanWeb2 from '../assets/viet_web.png';
 import DessertCoIMG from '../assets/dessert_co.png';
 import TiktokAI from '../assets/tiktok_hackathon.png';
 import CanvaHack from '../assets/canva_hackathon.png';
@@ -52,17 +52,17 @@ const projects = [
     image: TiktokAI,
     date: '8th June, 2024 (Duration: 1 month)',
   },
-  {
-    name: 'Personal Portfolio (This Website)',
-    descriptions:
-      "This website represents my debut venture into the world of React, and I'm thrilled to showcase my first React project. As I delved into the framework, I had the opportunity to apply a range of React concepts, including multi-page, data validation, reading JSON data. I utilized react-router-dom to seamlessly navigate between pages, providing a cohesive user experience. And by incorporating prop-types, I ensured the integrity of the JSON data being consumed, guaranteeing a robust and reliable application.",
-    website: 'https://viet-doan.com/',
-    github: 'https://github.com/viet-doan/web.vietdoan.v2',
-    links: {},
-    languagesAndTools: 'HTML5, CSS3, Javascript, Figma, React',
-    image: VietDoanWeb2,
-    date: '9th June, 2024 (Duration: 1 week)',
-  },
+  // {
+  //   name: 'Personal Portfolio (This Website)',
+  //   descriptions:
+  //     "This website represents my debut venture into the world of React, and I'm thrilled to showcase my first React project. As I delved into the framework, I had the opportunity to apply a range of React concepts, including multi-page, data validation, reading JSON data. I utilized react-router-dom to seamlessly navigate between pages, providing a cohesive user experience. And by incorporating prop-types, I ensured the integrity of the JSON data being consumed, guaranteeing a robust and reliable application.",
+  //   website: 'https://viet-doan.com/',
+  //   github: 'https://github.com/viet-doan/web.vietdoan.v2',
+  //   links: {},
+  //   languagesAndTools: 'HTML5, CSS3, Javascript, Figma, React',
+  //   image: VietDoanWeb2,
+  //   date: '9th June, 2024 (Duration: 1 week)',
+  // },
   {
     name: 'Dessert Co - Website Template',
     descriptions:
