@@ -15,20 +15,28 @@ function Skills () {
       <table className='tb-summary'>
         <tbody>
           <tr>
-            <th>Backend</th>
-            <td>Python, C, Java</td>
+            <th>Coding Languages</th>
+            <td>Python, C, Java, JavaScript, TypeScript</td>
           </tr>
           <tr>
-            <th>Frontend</th>
-            <td>HTML5, CSS3, JavaScript, React, TailwindCSS, Typescript</td>
+            <th>Frontend Development</th>
+            <td>HTML, CSS, React JS, TailwindCSS, Material UI (MUI)</td>
+          </tr>
+          <tr>
+            <th>Backend Development</th>
+            <td>Node.js, Express.js</td>
           </tr>
           <tr>
             <th>Database</th>
-            <td>MySQL</td>
+            <td>MongoDB, MySQL, Firestore</td>
+          </tr>
+          <tr>
+            <th>Cloud Services</th>
+            <td>Firebase, Heroku</td>
           </tr>
           <tr>
             <th>Tools</th>
-            <td>IntelliJ IDEA, VSCode, Git, Github, Matlab, Figma, Adobe Illustrator</td>
+            <td>Jira, Confluence, Git, Github, Matlab, Figma, Adobe Illustrator</td>
           </tr>
         </tbody>
       </table>
