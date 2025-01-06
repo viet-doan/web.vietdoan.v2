@@ -6,6 +6,7 @@ import DessertCoIMG from '../assets/dessert_co.png';
 import TiktokAI from '../assets/tiktok_hackathon.png';
 import CanvaHack from '../assets/canva_hackathon.png';
 import PDAS_MERN from '../assets/PDAS_MERN.png';
+import SummarAIze from '../assets/chrome_hackathon.png';
 
 const projects = [
   // {
@@ -14,10 +15,26 @@ const projects = [
   //   website: 'viet-doan.com',
   //   languagesAndTools: 'HTML, CSS, JavaScript, React, Figma',
   // },
+
+  {
+    name: 'SummarAIze',
+    descriptions: `SummarAIze is an innovative Google Chrome extension that utilizes Chrome's built-in AI models, including Gemini Nano, to redefine how users interact with web content. Designed with productivity in mind, the extension integrates Summarization, Translation, and Rewrite APIs to deliver dynamic user experiences. Key features include real-time text summarization, multilingual translation, and simplified text for improved comprehension. SummarAIze prioritizes user convenience with local and sync storage capabilities, a dark mode for accessibility, and structured summaries based on webpage headings. Future enhancements aim to expand functionality with glossary support, knowledge-gap identification, article recommendations, and downloadable summaries, making SummarAIze an indispensable tool for students, researchers, and professionals seeking clarity and efficiency in their digital reading experience.`,
+    github: 'https://github.com/Polygon2024/SummarAIze',
+    links: {
+      DevPost: 'https://devpost.com/software/summaraize-s3fdqo?ref_content=my-projects-tab&ref_feature=my_projects',
+      YoutubeDemo: 'https://www.youtube.com/watch?v=OyzIJyT0nS4',
+    },
+    languagesAndTools: 'HTML, CSS, TypeScript, Figma, Material UI, Figma, Chrome Extension Manifest, Chrome APIs',
+    images: SummarAIze,
+    date: '12th November, 2024 (Duration: 4 weeks)',
+  },
   {
     name: 'Psychology Assignment Software',
     descriptions:
       'This project is a robust MERN stack platform that enhances interactive learning and streamlines assignment oversight for students and educators. By integrating AI-driven functionality with models like Gemini, Claude, and GPT, it optimizes response accuracy using Retrieval-Augmented Generation (RAG). The platform features a responsive, user-centric interface built with React Vite, Material UI, and Firebase Authentication, enabling tailored access. Additionally, advanced prompt engineering maintains a realistic AI persona, providing educators with efficient tools for assignment creation, detailed transcript analysis, and in-depth thematic assessments, ultimately enriching the learning experience.',
+    // links: {
+    //   YoutubeDemo: 'https://www.youtube.com/watch?v=55oBUx3e9Ew',
+    // },
     languagesAndTools:
       'HTML, CSS, TypeScript, Figma, Material UI, Node JS, Express, MongoDB, Firebase Auth, Claude API, ChatGPT API, Gemini API',
     image: PDAS_MERN,
@@ -34,7 +51,7 @@ const projects = [
     languagesAndTools:
       'HTML, CSS, JavaScript, TypeScript, React, Canva SDK, Canva App UI Kit, Figma',
     image: CanvaHack,
-    date: '8th July, 2024 (Duration: 1 month)',
+    date: '8th July, 2024 (Duration: 4 weeks)',
   },
   {
     name: 'LiveDesign Pro @ Tiktok TechJam Hackathon',
@@ -50,7 +67,7 @@ const projects = [
     languagesAndTools:
       'HTML, CSS, Javascript, Typescript, TailwindCSS, React, Figma',
     image: TiktokAI,
-    date: '8th June, 2024 (Duration: 1 month)',
+    date: '8th June, 2024 (Duration: 4 weeks)',
   },
   // {
   //   name: 'Personal Portfolio (This Website)',
