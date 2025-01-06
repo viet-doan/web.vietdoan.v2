@@ -17,7 +17,7 @@ const projects = [
   // },
 
   {
-    name: 'SummarAIze',
+    name: 'SummarAIze @ Google Chrome Built-in AI Challenge',
     descriptions: `SummarAIze is an innovative Google Chrome extension that utilizes Chrome's built-in AI models, including Gemini Nano, to redefine how users interact with web content. Designed with productivity in mind, the extension integrates Summarization, Translation, and Rewrite APIs to deliver dynamic user experiences. Key features include real-time text summarization, multilingual translation, and simplified text for improved comprehension. SummarAIze prioritizes user convenience with local and sync storage capabilities, a dark mode for accessibility, and structured summaries based on webpage headings. Future enhancements aim to expand functionality with glossary support, knowledge-gap identification, article recommendations, and downloadable summaries, making SummarAIze an indispensable tool for students, researchers, and professionals seeking clarity and efficiency in their digital reading experience.`,
     github: 'https://github.com/Polygon2024/SummarAIze',
     links: {
@@ -41,7 +41,7 @@ const projects = [
     date: '1st July, 2024 (Duration: 12 weeks)',
   },
   {
-    name: 'Evolving Tiktok Live @ Tiktok TechJam Hackathon',
+    name: 'MagicBook.AI @ Canva AI and Integrations Hackathon',
     descriptions: `We developed MagicBook.AI, an AI-powered app integrated into Canva for creating personalized children's books, addressing challenges in the children's picture book market and enhancing educational experiences. The app features seamless workflows for story writing, illustration, voice interaction, and music composition, leveraging technologies like React, TypeScript, Flask, and CSS for the front-end, with JavaScript for scripting. We deployed AI models using PyTorch on Google Colab and utilized Heroku for hosting. This project reflects our commitment to making design accessible, supporting Canva's educational mission, and promoting creativity in learning.`,
     github: 'https://github.com/Joan-gao/canva-magicbook-ai',
     links: {
