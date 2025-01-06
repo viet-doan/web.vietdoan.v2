@@ -25,7 +25,7 @@ const projects = [
       YoutubeDemo: 'https://www.youtube.com/watch?v=OyzIJyT0nS4',
     },
     languagesAndTools: 'HTML, CSS, TypeScript, Figma, Material UI, Figma, Chrome Extension Manifest, Chrome APIs',
-    images: SummarAIze,
+    image: SummarAIze,
     date: '12th November, 2024 (Duration: 4 weeks)',
   },
   {
