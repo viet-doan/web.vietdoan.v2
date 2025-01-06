@@ -2,9 +2,11 @@ const skills = [
   {
     year: `2024`,
     events: [
+      `📍 Moved to San Jose, California, US (currently a Permanent Resident)`,
+      `👨‍🎓 Graduated from my Bachelors Degree at The University of Melbourne`,
       `🏆 Won 3rd Place @ 2024 TikTok TechJam place`,
       `🚢 Shipped this site (First React Project).`,
-      // `💼 Promoted to become Software Developer Lead / Mentor`
+      `💼 Became a Full Stack Developer at Quicksite Guru`,
       `‍👨‍💻 Learnt React, Typescript, TailwindCSS.`,
       `‍👨‍💻 Joined in my first Hackathon @ 2024 TikTok Techjam`,
       `🚢 Shipped koicorner.art (Personal Art Gallery).`,
