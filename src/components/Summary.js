@@ -1,13 +1,15 @@
 import React from 'react';
 
-function Summary () {
+function Summary() {
   const uniURL = 'https://www.unimelb.edu.au/';
-  const degreeURL = 'https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/';
-  const majorURL = 'https://study.unimelb.edu.au/find/courses/major/computing-and-software-systems/';
+  const degreeURL =
+    'https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/';
+  const majorURL =
+    'https://study.unimelb.edu.au/find/courses/major/computing-and-software-systems/';
 
   return (
-    <div id="summary">
-      <div className="heading-bar">
+    <div id='summary'>
+      <div className='heading-bar'>
         <h5>My Summary</h5>
       </div>
 
@@ -19,23 +21,47 @@ function Summary () {
           </tr>
           <tr>
             <th>University</th>
-            <td><a href={uniURL} target='_blank' rel="noreferrer">The University of Melbourne</a></td>
+            <td>
+              <a
+                href={uniURL}
+                target='_blank'
+                rel='noreferrer'
+              >
+                The University of Melbourne
+              </a>
+            </td>
           </tr>
           <tr>
             <th>Degree</th>
-            <td><a href={degreeURL} target='_blank' rel="noreferrer">Bachelor of Science</a></td>
+            <td>
+              <a
+                href={degreeURL}
+                target='_blank'
+                rel='noreferrer'
+              >
+                Bachelor of Science
+              </a>
+            </td>
           </tr>
           <tr>
             <th>Major</th>
-            <td><a href={majorURL} target='_blank' rel="noreferrer">Computing and Software Systems</a></td>
+            <td>
+              <a
+                href={majorURL}
+                target='_blank'
+                rel='noreferrer'
+              >
+                Computing and Software Systems
+              </a>
+            </td>
           </tr>
           <tr>
-            <th>Graduation</th>
-            <td>December 2025</td>
+            <th>Graduated</th>
+            <td>December 2024</td>
           </tr>
           <tr>
-            <th>Ethnicity</th>
-            <td>Vietnamese</td>
+            <th>Citizenship</th>
+            <td>Vietnamese Citizenship and U.S. Permenant Residency</td>
           </tr>
           <tr>
             <th>Languages</th>
