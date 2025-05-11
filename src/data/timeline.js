@@ -2,7 +2,9 @@ const skills = [
   {
     year: `2024`,
     events: [
-      `📍 Moved to San Jose, California, US (currently a Permanent Resident)`,
+      `💼 Joined Tempus Insights as Software Engineer Intern (Fullstack Dev).`,
+      `📍 Moved to New York City`,
+      `📍 Moved to San Jose, California, US`,
       `👨‍🎓 Graduated from my Bachelors Degree at The University of Melbourne`,
       `🏆 Won 3rd Place @ 2024 TikTok TechJam place`,
       `🚢 Shipped this site (First React Project).`,
